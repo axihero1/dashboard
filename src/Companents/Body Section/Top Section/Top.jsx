@@ -10,9 +10,9 @@ import { BsArrowRightShort } from "react-icons/bs";
 import { BsQuestionCircle } from "react-icons/bs";
 
 // Imported Imgs
-import adminPhoto from "../../../Assets/admin,photo.png";
-import videoRain from "../../../Assets/210329_06B_Bali_1080p_013_preview.mp4";
-import firetree from "../../../Assets/rasm.png";
+// import adminPhoto from "../../../Assets/admin,photo.png";
+// import videoRain from "../../../Assets/210329_06B_Bali_1080p_013_preview.mp4";
+// import firetree from "../../../Assets/rasm.png";
 
 function Top() {
   return (
@@ -30,7 +30,7 @@ function Top() {
           <TbMessageCircle className="icon" />
           <MdOutlineNotifications className="icon" />
           <div className="adminImg">
-            <img src={adminPhoto} alt="Admin Img" />
+            {/* <img src={adminPhoto} alt="Admin Img" /> */}
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ function Top() {
             <button className="btn transparent">Top Sellers</button>
           </div>
           <div className="vidioDiv">
-            <video src={videoRain} autoPlay loop muted></video>
+            {/* <video src={videoRain} autoPlay loop muted></video> */}
           </div>
         </div>
 
@@ -70,15 +70,13 @@ function Top() {
             </div>
 
             <div className="imgDiv">
-              <img src={firetree} alt="Img Name" />
+              {/* <img src={firetree} alt="Img Name" /> */}
             </div>
-            {/*We shall use this Card Later   */}
             <div className="sideBarCar">
               <BsQuestionCircle className="icon" />
               <div className="cardContent">
                 <div className="circle1"></div>
                 <div className="circle2"></div>
-
                 <h3>Help Center</h3>
                 <p>
                   Having to trouble in Planati, place contanct us from for more

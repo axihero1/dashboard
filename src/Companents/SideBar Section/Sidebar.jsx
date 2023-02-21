@@ -1,7 +1,7 @@
 import React from "react";
 import "./sidebar.css";
 import "./sidebar.scss";
-import logo from "../../Assets/logo-removebg-preview.png";
+import logo from "../../Assets/admin,photo.png";
 import { IoMdSpeedometer } from "react-icons/io";
 import { MdDeliveryDining } from "react-icons/md";
 import { MdOutlineExplore } from "react-icons/md";
